@@ -5,6 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css\style.css" />
     <title>Google</title>
+    <style>
+      *{
+        box-sizing: border-box;
+      }
+    </style>
   </head>
   <body>
     <div class="panel">
@@ -13,6 +18,7 @@
           <li class="pic headerli">
             <a href="https://github.com/aslanbatuhann" target="_blank"
               ><img
+                class="profilepic"
                 src="assets\104254584.jpeg"
                 alt=""
                 style="margin-right: 1px;"
@@ -36,13 +42,16 @@
           </li>
         </ul>
       </nav>
+      <!-- container start -->
       <div class="container">
         <img
           src="assets\googlelogo_color.png"
-          width="350px"
+          width="280px"
           alt=""
         />
       </div>
+      <!-- container end -->
+      <!-- search area start -->
       <div class="search-area">
         <div class="search">
           <div class="search-img">
@@ -58,6 +67,7 @@
               </svg>
             </span>
           </div>
+          
           <div class="input-enter">
             <div class="input-area">
               <input
@@ -70,8 +80,8 @@
           </div>
         </div>
       </div>
-
-      <div class="buttons">
+<!-- buttons start -->
+      <div class="buttons" style="text-align: center;">
         <a href=""
           ><button class="googlesearch">Google Search</button></a
         >
@@ -80,7 +90,9 @@
         >
       </div>
     </div>
-
+      <!-- buttons end -->
+      <!-- search area end -->
+      <!-- footer start --> 
     <nav>
       <ul class="footer">
         <li class="footerli">
@@ -120,5 +132,6 @@
         </li>
       </ul>
     </nav>
+    <!-- footer end -->
   </body>
 </html>
